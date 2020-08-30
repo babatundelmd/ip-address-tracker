@@ -1,5 +1,7 @@
 <template>
-  <div class="container"></div>
+  <div class="container">
+    <h1>IP TRACKER WORKS</h1>
+  </div>
 </template>
 
 <script>

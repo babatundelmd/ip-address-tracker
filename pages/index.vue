@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <div class="header">this is good</div>
+    <div class="header"></div>
     <Map></Map>
   </div>
 </template>

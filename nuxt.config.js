@@ -31,8 +31,17 @@ export default {
         href:
           'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css',
       },
+
+      {
+        rel: 'stylesheet',
+        href: 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css',
+      },
     ],
     script: [
+      {
+        src: 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.js',
+        type: 'text/javascript',
+      },
       {
         src: 'https://code.jquery.com/jquery-3.5.1.slim.min.js',
         type: 'text/javascript',

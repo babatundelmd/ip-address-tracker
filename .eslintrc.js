@@ -15,5 +15,7 @@ module.exports = {
   ],
   plugins: ['vue'],
   // add your custom rules here
-  rules: {},
+  rules: {
+    "no-unused-vars": "off"
+  },
 }

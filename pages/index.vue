@@ -1,21 +1,27 @@
 <template>
-  <div class="container">
-    <h1>IP TRACKER WORKS</h1>
+  <div class="wrapper">
+    <div class="header">this is good</div>
+    <Map></Map>
   </div>
 </template>
 
 <script>
-export default {}
+import Map from '@/components/Map'
+export default {
+  components: { Map },
+}
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+<style scoped>
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background: url('/images/pattern-bg.png') no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 35vh;
 }
 
 .title {
